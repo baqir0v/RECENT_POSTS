@@ -146,7 +146,7 @@
     height: 200px;
 }
 .text1 , .text2 ,.text3{
-    border: none;
+    
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .comment1{
@@ -178,4 +178,13 @@
 .comment3 i:hover{
     cursor: pointer;
     color: gray;
+}
+@media screen and (max-width: 900px){
+    .boxes{
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
